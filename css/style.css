@@ -747,6 +747,9 @@ a:hover {
 }
 
 .copyright {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     width: 100%;
     float: left;
     font-size: 12pt;
@@ -800,4 +803,30 @@ a:hover {
     width: 100%;
     height: auto;
     background: #0c0116;
+}
+
+.info{
+    display: flex;
+}
+.info>span{
+    margin-left: 15px;
+    font-size: 18px;
+    transition:all 1.2s linear;
+    animation:textFlash 0.8s linear forwards infinite ;
+}
+.desc{
+    display: flex;
+}
+.desc>a{
+    transition:all 1.2s linear;
+    animation:textFlash 0.8s linear forwards infinite ;
+}
+
+@keyframes textFlash{
+    0%{
+        color:yellow;
+    }
+    100%{
+        color:blue;
+    }
 }

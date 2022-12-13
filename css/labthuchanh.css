@@ -653,7 +653,7 @@ body{
 }
 
 a:hover {
-    opacity: 0.8;
+    color: #fff;
 }
 
 .shop_banner{
@@ -853,54 +853,5 @@ h1{
     background-color: blue;
     font-weight: 500;
   
-}
-
-.lab-list{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    text-align: center;
-    align-items: center;
-}
-
-.lab-item{
-    padding:10px;
-    width: 50%;
-    margin-bottom:10px;
-}
-
-.box{
-    display: flex;
-    flex-direction: column;
-    margin-top: 10px;
-    display: none;
-}
-
-.box.active {
-    display: flex;
-}
-.lab-wrapper {
-    background-color: blue;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 6px 0;
-    border-radius: 10px;
-    user-select: none;
-    cursor: pointer;
-}
-.lab-wrapper:hover {
-    opacity: 0.8;
-}
-.lab-wrapper span{
-    color: white;
-}
-.lab-wrapper i{
-    font-size: 18px;
-    color: white;
-}
-.lab-item {
-    padding: 0;
 }
 
